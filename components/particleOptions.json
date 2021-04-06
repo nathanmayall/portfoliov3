@@ -1,8 +1,9 @@
 {
   "background": {
     "color": {
-      "value": "#ffffff"
-    }
+      "value": "#000fff"
+    },
+    "opacity": 0
   },
   "fpsLimit": 60,
   "interactivity": {
