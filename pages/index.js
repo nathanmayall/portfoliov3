@@ -1,3 +1,13 @@
+import Title from "../components/Title";
+import Body from "../components/Body";
+import Footer from "../components/Footer";
+
 export default function Home() {
-  return <div className="w-auto h-screen bg-gray-700 ">Hello World</div>;
+  return (
+    <>
+      <Title />
+      <Body />
+      <Footer />
+    </>
+  );
 }

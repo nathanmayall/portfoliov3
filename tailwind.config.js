@@ -17,7 +17,7 @@ module.exports = {
         kubernetes: "#326ce5",
       },
       backgroundImage: {
-        "bio-image": "url('./img/paintsplash.jpg')",
+        "bio-image": "url('../../img/paintsplash.jpg')",
       },
     },
   },
