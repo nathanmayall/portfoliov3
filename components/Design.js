@@ -1,4 +1,3 @@
-import React from "react";
 import { DiHtml5, DiReact } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 

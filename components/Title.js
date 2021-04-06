@@ -1,5 +1,3 @@
-import React, { Fragment } from "react";
-
 import Icons from "./Icons";
 import Particles from "react-tsparticles";
 import particleOptions from "./particleOptions.json";
