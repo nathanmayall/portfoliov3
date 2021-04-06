@@ -4,7 +4,7 @@ import Tools from "./Tools";
 
 export default function Body() {
   return (
-    <div className="w-auto h-auto bg-cover bg-bio-image">
+    <div className="w-auto h-auto bg-center bg-cover bg-bio-image">
       <div className="bg-gradient-to-b to-transparent from-white">
         <div className="text-center text-gray-700">
           <h1 className="mb-1 text-6xl text-shadow-md">My Expertise</h1>
