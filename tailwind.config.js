@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         "bio-image": "url('../../img/paintsplash.jpg')",
+        "dark-bio-image": "url('../../img/diver.jpg')",
       },
     },
   },
