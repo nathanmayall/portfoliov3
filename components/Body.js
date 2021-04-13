@@ -1,6 +1,7 @@
 import Design from "./bio/Design";
 import Languages from "./bio/Languages";
 import Tools from "./bio/Tools";
+import Links from "./Links";
 
 export default function Body() {
   return (
@@ -18,6 +19,7 @@ export default function Body() {
           <Languages />
           <Tools />
         </div>
+        <Links />
       </div>
     </div>
   );

@@ -11,8 +11,7 @@ export default function Tools() {
       </div>
       <p>
         Git, GitHub, Xen Orchestra, Virtualisation, WSL, Docker, Kubernetes...
-        the list goes on. Below are some of the services I run on my home
-        server.
+        the list goes on.
       </p>
     </div>
   );
