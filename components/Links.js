@@ -12,12 +12,12 @@ export default function Links() {
             Postitt
           </a>
         </Link>
-        <Link href="https://amp.nathanmayall.com/">
+        <Link href="https://scsc-staging.herokuapp.com/">
           <a
             target="_blank"
             className="duration-150 hover:text-gray-900 dark:hover:text-gray-800"
           >
-            AMP
+            SCSC (WIP)
           </a>
         </Link>
         <Link href="https://absocial.me/">
