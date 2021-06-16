@@ -11,7 +11,8 @@ export default function Design() {
         <DiReact className="text-ReactLogo hover:animate-spin" />
       </div>
       <p>
-        Using Material Design, TailwindCSS and other component bootstraps, I've
+        Using Material Design, TailwindCSS and other component bootstraps,{" "}
+        {"I've"}
         made a few sites and applications.
       </p>
       <p className="text-md">
