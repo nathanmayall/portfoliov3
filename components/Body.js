@@ -8,8 +8,8 @@ export default function Body() {
         <div className="text-center text-gray-700 dark:text-gray-300">
           <h1 className="mb-2 text-6xl text-shadow-md">My Expertise</h1>
           <p className="px-2 mb-3">
-            {"I'm"} a full stack junior developer, currently a student at
-            Manchester Codes. This is a collection of my work so far.
+            I&apos;m a Full Stack Junior Developer, Graduated Manchester Codes
+            in September 2021. This is a collection of my work so far.
           </p>
         </div>
         <div className="flex flex-wrap m-auto space-y-3 text-center text-gray-700 md:space-y-2 w-80 md:w-auto dark:text-gray-200 md:place-content-around">
