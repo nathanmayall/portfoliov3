@@ -1,34 +1,12 @@
-import Link from "next/link";
+import ProjectCard from "./projects/ProjectCard";
+import projects from "./projects";
 
 export default function Links() {
   return (
-    <div className="flex justify-center p-3">
-      <div className="flex flex-wrap justify-center p-3 space-x-3 text-3xl text-gray-700 duration-150 bg-white rounded-lg shadow-lg md:space-x-10 dark:text-gray-300 text-shadow-md w-80 md:w-1/2 backdrop-filter backdrop-blur-sm bg-opacity-40 hover:backdrop-blur-md">
-        <Link href="https://postitt.io/">
-          <a
-            target="_blank"
-            className="duration-150 hover:text-gray-900 dark:hover:text-gray-800"
-          >
-            Postitt
-          </a>
-        </Link>
-        <Link href="https://scsc-staging.herokuapp.com/">
-          <a
-            target="_blank"
-            className="duration-150 hover:text-gray-900 dark:hover:text-gray-800"
-          >
-            SCSC (WIP)
-          </a>
-        </Link>
-        <Link href="https://absocial.me/">
-          <a
-            target="_blank"
-            className="duration-150 hover:text-gray-900 dark:hover:text-gray-800"
-          >
-            AbSocial
-          </a>
-        </Link>
-      </div>
+    <div className="flex flex-wrap items-center justify-center w-full h-full p-3 m-auto space-y-3 align-middle lg:space-x-8 md:w-auto md:place-content-around">
+      {projects.map((project) => (
+        <ProjectCard key={project.id} project={project} />
+      ))}
     </div>
   );
 }
