@@ -1,4 +1,4 @@
-import PostittImage from "../../public/sites/Postitt.png";
+import PostittImage from "../../public/sites/postitt.png";
 import GameUnderImage from "../../public/sites/GameUnder.png";
 import AbSocialImage from "../../public/sites/AbSocial.png";
 
