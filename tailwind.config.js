@@ -15,6 +15,9 @@ module.exports = {
         nodejs: "#68A063",
         webpack: "#1C78C0",
         kubernetes: "#326ce5",
+        linkButton: "#00a7a7 ",
+        linkButtonHover: "#00c1c1",
+        linkButtonLight: "#00dada",
       },
       backgroundImage: {
         "bio-image": "url('../../img/paintsplash.jpg')",

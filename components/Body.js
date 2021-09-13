@@ -1,6 +1,4 @@
-import Design from "./bio/Design";
-import Languages from "./bio/Languages";
-import Tools from "./bio/Tools";
+import { Design, Languages, Tools } from "./bio";
 import Links from "./Links";
 
 export default function Body() {
@@ -14,12 +12,12 @@ export default function Body() {
             Manchester Codes. This is a collection of my work so far.
           </p>
         </div>
-        <div className="flex flex-wrap m-auto space-y-3 text-center text-gray-700 md:space-y-0 md:h-screen w-80 md:w-auto dark:text-gray-200 md:place-content-around">
+        <div className="flex flex-wrap m-auto space-y-3 text-center text-gray-700 md:space-y-2 w-80 md:w-auto dark:text-gray-200 md:place-content-around">
           <Design />
           <Languages />
           <Tools />
+          <Links />
         </div>
-        <Links />
       </div>
     </div>
   );
