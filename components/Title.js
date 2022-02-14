@@ -16,7 +16,7 @@ export default function Title() {
             Nathan Mayall
           </h1>
           <p className="my-6 tracking-wide ">
-            <code>Junior Software Engineer</code>
+            <code>Software Engineer</code>
           </p>
           <Icons />
         </div>
