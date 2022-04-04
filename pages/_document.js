@@ -13,11 +13,6 @@ class MyDocument extends Document {
         <Head>
           <script
             async
-            data-domain="nathanmayall.com"
-            src="https://stats.nathanmayall.com/js/plausible.js"
-          ></script>
-          <script
-            async
             src="https://static.cloudflareinsights.com/beacon.min.js"
             data-cf-beacon='{"token": "1f4d556aff2e42429eb59b3ef770906f"}'
           ></script>
