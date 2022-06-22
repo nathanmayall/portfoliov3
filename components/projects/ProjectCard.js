@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
           src={image}
           alt=""
           layout="responsive"
-          className="rounded-lg shadow-lg cursor-pointer"
+          className="rounded-lg shadow-lg"
           height={400}
           width={800}
           placeholder="blur"
