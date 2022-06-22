@@ -10,22 +10,15 @@ const ProjectCard = ({ project }) => {
         <h3 className="text-3xl text-shadow-sm">{name}</h3>
         <p className="mb-3">{description}</p>
       </div>
-      <Link href={url} passHref>
-        <button className="w-32 px-4 py-1 mb-4 text-2xl text-gray-100 duration-150 rounded-lg shadow-lg hover:bg-linkButtonHover bg-linkButtonLight dark:bg-linkButton dark:hover:text-gray-700 text-shadow-md">
-          Link
-        </button>
-      </Link>
-      <Link href={url} passHref>
         <Image
           src={image}
           alt=""
           layout="responsive"
-          className="rounded-lg shadow-lg cursor-pointer"
+          className="rounded-lg shadow-lg"
           height={400}
           width={800}
           placeholder="blur"
         />
-      </Link>
     </div>
   );
 };
