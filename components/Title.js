@@ -1,12 +1,17 @@
 import Icons from "./Icons";
 import Particles from "react-tsparticles";
 import particleOptions from "./particleOptions.json";
+import { loadFull } from "tsparticles";
 
 export default function Title() {
+  const particlesInit = async (main) => {
+    await loadFull(main);
+  };
   return (
     <>
       <div className="absolute h-screen min-w-full dark:bg-gray-900" />
       <Particles
+        init={particlesInit}
         options={particleOptions}
         className="absolute h-screen min-w-full"
       />
