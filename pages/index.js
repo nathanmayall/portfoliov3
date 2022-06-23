@@ -1,4 +1,7 @@
-import Title from "../components/Title";
+import dynamic from "next/dynamic";
+
+const Title = dynamic(() => import("../components/Title"), { ssr: false });
+
 import Body from "../components/Body";
 import Footer from "../components/Footer";
 import Head from "next/head";

@@ -11,11 +11,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script
-            async
-            src="https://static.cloudflareinsights.com/beacon.min.js"
-            data-cf-beacon='{"token": "1f4d556aff2e42429eb59b3ef770906f"}'
-          ></script>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <body className="font-body">
